@@ -1,19 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('fetch') {
+    stage('install') {
       steps {
-        sh 'echo "fetch"'
+        sh 'npm install'
       }
     }
     stage('build') {
       steps {
-        sh 'echo "install and build"'
+        sh 'npm run build'
       }
     }
     stage('deploy') {
       steps {
-        sh 'echo "deploy"'
+        sh 'npm run deploy'
       }
     }
   }
