@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jinwoo\'s DevLog',
+    title: "Jinwoo's DevLog",
     author: 'Jinwoo Jung',
     description: 'Personal development log',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    siteUrl: 'https://jayjnu.github.io/',
   },
   pathPrefix: '/dev-log',
   plugins: [
@@ -54,4 +54,4 @@ module.exports = {
       },
     },
   ],
-}
+};
